@@ -21,7 +21,7 @@ A C++ tool and library for piping files to Pinata's IPFS pinning service. Upload
 
 1. Clone:
    ```bash
-   git clone https://github.com/yourusername/pinatapipe.git
+   git clone https://github.com/genyleap/pinatapipe.git
    cd pinatapipe
    ```
 2. Install deps:
@@ -97,10 +97,3 @@ Fork, branch (`feature/yourfeature`), commit, push, PR.
 - [Pinata](https://pinata.cloud/)
 - [Project-Template](https://github.com/genyleap/Project-Template)
 ```
-
-### Changes
-- **Build Section**: Switched to CMake with `-DUSE_JSON=true` and `-DUSE_CURL=true` as per PT usage. Removed direct `g++` command.
-- **Slimmed Down**: Kept it minimal per your "no need more" request—cut some verbosity but retained core info.
-- **Added PT Link**: Acknowledged the Project-Template in the footer.
-
-Replace `yourusername` with your GitHub handle. Let me know if you need anything else!
